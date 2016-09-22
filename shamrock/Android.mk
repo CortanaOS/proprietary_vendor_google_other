@@ -29,7 +29,6 @@ LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MODULE_SUFFIX := .so
 include $(BUILD_PREBUILT)
 
-ifeq ($(QCPATH),)
 include $(CLEAR_VARS)
 LOCAL_MODULE := libcamera_client
 LOCAL_SRC_FILES_32 := lib/libcamera_client.so
