@@ -84,15 +84,6 @@ LOCAL_MODULE_SUFFIX := .so
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := libstagefright_amrnbdec
-LOCAL_SRC_FILES_32 := lib/libstagefright_amrnbdec.so
-LOCAL_MULTILIB := 32
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := STATIC_LIBRARIES
-LOCAL_MODULE_SUFFIX := .so
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
 LOCAL_MODULE := libserviceutility
 LOCAL_SRC_FILES_32 := lib/libserviceutility.so
 LOCAL_MULTILIB := 32
