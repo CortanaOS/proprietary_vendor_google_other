@@ -57,6 +57,15 @@ LOCAL_MODULE_SUFFIX := .so
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
+LOCAL_MODULE := libmedia
+LOCAL_SRC_FILES_32 := lib/libmedia.so
+LOCAL_MULTILIB := 32
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := SHARED_LIBRARIES
+LOCAL_MODULE_SUFFIX := .so
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
 LOCAL_MODULE := libserviceutility
 LOCAL_SRC_FILES_32 := lib/libserviceutility.so
 LOCAL_MULTILIB := 32
